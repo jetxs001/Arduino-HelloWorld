@@ -3,7 +3,7 @@
 
 class HelloWorld {
 public:
-    HelloWorld();
+    HelloWorld(int baudRate); // Constructor
     void sayHello();
 };
 
